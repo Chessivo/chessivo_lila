@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="broadcasts">Emisiones</string>
+  <string name="liveBroadcasts">Emisiones de torneos en directo</string>
+  <string name="newBroadcast">Nueva emisión en directo</string>
+  <string name="addRound">Añadir una ronda</string>
+  <string name="ongoing">En curso</string>
+  <string name="upcoming">Próximamente</string>
+  <string name="completed">Completadas</string>
+  <string name="roundName">Nombre de la ronda</string>
+  <string name="roundNumber">Número de ronda</string>
+  <string name="tournamentName">Nombre del torneo</string>
+  <string name="tournamentDescription">Breve descripción del torneo</string>
+  <string name="fullDescription">Descripción completa del evento</string>
+  <string name="fullDescriptionHelp">Descripción larga opcional de la emisión. %1$s está disponible. La longitud debe ser inferior a %2$s caracteres.</string>
+  <string name="sourceUrlOrGameIds">Enlace de origen o identificador de la partida</string>
+  <string name="sourceUrlHelp">URL que Lichess comprobará para obtener actualizaciones PGN. Debe ser públicamente accesible desde Internet.</string>
+  <string name="gameIdsHelp">Alternativamente, puedes introducir hasta 64 identificadores de partida, separados por espacios.</string>
+  <string name="startDate">Fecha de inicio en tu zona horaria</string>
+  <string name="startDateHelp">Opcional, si sabes cuando comienza el evento</string>
+  <string name="credits">Cita la fuente</string>
+  <string name="resetRound">Restablecer esta ronda</string>
+  <string name="deleteRound">Eliminar esta ronda</string>
+  <string name="broadcastUrl">Enlace de la emisión</string>
+  <string name="currentRoundUrl">Enlace de la ronda actual</string>
+  <string name="currentGameUrl">Enlace de la partida actual</string>
+  <string name="downloadAllRounds">Descargar todas las rondas</string>
+  <string name="definitivelyDeleteRound" comment="definitivelyDeleteRound&#10;&#10;Refers to live tournaments being broadcast on lichess&#10;&#10;Description (also translateable): Delete all games of this round. The source will need to be active in order to re-create them.">Eliminar definitivamente la ronda y sus partidas.</string>
+  <string name="deleteAllGamesOfThisRound" comment="deleteAllGamesOfThisRound&#10;&#10;This is a button when editing a broadcast round. &quot;Source&quot; refers to the broadcasting source, usually an URL pointing to a PGN file which is continuously updated by the tournament organizers and polled by Lichess to get new moves. The button is used when a mismatch occurs between the broadcast state and the source, e.g. when a move is reverted in the source. Deleting all games causes the state to be recreated completely from the source the next time it is polled by Lichess.">Eliminar todas las partidas de esta ronda. La fuente tendrá que estar activa para volver a crearlos.</string>
+</resources>
